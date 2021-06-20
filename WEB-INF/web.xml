@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0" metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+
+  <context-param>
+    <param-name>DBDriver</param-name>
+    <param-value>com.mysql.cj.jdbc.Driver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>DBHost</param-name>
+     <param-value>localhost</param-value>
+  <!-- <param-value>aa14w4p8t3jh7pw.ctzbm1rqcgk1.ap-south-1.rds.amazonaws.com</param-value> -->
+  </context-param>
+  <context-param>
+    <param-name>DBPort</param-name>
+    <param-value>3306</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Database</param-name>
+   <param-value>propertydb</param-value>
+   <!--  <param-value>ebdb</param-value>-->
+  </context-param>
+  <context-param>
+    <param-name>DBUser</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>DBPassword</param-name>
+    <param-value>1234</param-value>  
+    <!--<param-value>Property123</param-value>-->
+  </context-param>
+
+  <context-param>
+    <param-name>sender_email</param-name>
+    <param-value>pickabrick.tk@gmail.com</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>sender_email_password</param-name>
+    <param-value>Srishti@1999</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>real001</servlet-name>
+    <servlet-class>controllers.SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real001</servlet-name>
+    <url-pattern>/signup.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real002</servlet-name>
+    <servlet-class>controllers.SigninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real002</servlet-name>
+    <url-pattern>/signin.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real003</servlet-name>
+    <servlet-class>controllers.AccountActivationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real003</servlet-name>
+    <url-pattern>/activate.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real004</servlet-name>
+    <servlet-class>controllers.UniqueCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real004</servlet-name>
+    <url-pattern>/unique_check.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real005</servlet-name>
+    <servlet-class>controllers.EditProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real005</servlet-name>
+    <url-pattern>/edit_profile.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real006</servlet-name>
+    <servlet-class>controllers.SaveProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real006</servlet-name>
+    <url-pattern>/save_profile.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real007</servlet-name>
+    <servlet-class>controllers.SignOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real007</servlet-name>
+    <url-pattern>/signout.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real008</servlet-name>
+    <servlet-class>controllers.SendOTPServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real008</servlet-name>
+    <url-pattern>/sendotp.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real009</servlet-name>
+    <servlet-class>controllers.ProfilePicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real009</servlet-name>
+    <url-pattern>/profilepic.do</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>real010</servlet-name>
+    <servlet-class>controllers.ShowProfilePicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real010</servlet-name>
+    <url-pattern>/showprofilepic.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real011</servlet-name>
+    <servlet-class>controllers.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real011</servlet-name>
+    <url-pattern>/profile.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>real012</servlet-name>
+    <servlet-class>controllers.NewPropertyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real012</servlet-name>
+    <url-pattern>/new_property.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real013</servlet-name>
+    <servlet-class>controllers.CitySearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real013</servlet-name>
+    <url-pattern>/city_search.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real014</servlet-name>
+    <servlet-class>controllers.SavePropertyOtherDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real014</servlet-name>
+    <url-pattern>/save_property_other_details.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real015</servlet-name>
+    <servlet-class>controllers.SavePropertyFeaturesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real015</servlet-name>
+    <url-pattern>/save_property_features.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real016</servlet-name>
+    <servlet-class>controllers.SavePropertyPicsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real016</servlet-name>
+    <url-pattern>/property_pic_upload.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real017</servlet-name>
+    <servlet-class>controllers.AllPropertyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real017</servlet-name>
+    <url-pattern>/allproperty.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real018</servlet-name>
+    <servlet-class>controllers.PropertyImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real018</servlet-name>
+    <url-pattern>/property_image.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>real019</servlet-name>
+    <servlet-class>controllers.ViewPropertyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real019</servlet-name>
+    <url-pattern>/viewproperty.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real020</servlet-name>
+    <servlet-class>controllers.PropertyPicsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real020</servlet-name>
+    <url-pattern>/all_property_pics.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real021</servlet-name>
+    <servlet-class>controllers.ShowPropertyPicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real021</servlet-name>
+    <url-pattern>/property_pic.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real022</servlet-name>
+    <servlet-class>controllers.ShowPropertyPointsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real022</servlet-name>
+    <url-pattern>/all_property_points.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real023</servlet-name>
+    <servlet-class>controllers.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real023</servlet-name>
+    <url-pattern>/search.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real024</servlet-name>
+    <servlet-class>controllers.AddToWishlistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real024</servlet-name>
+    <url-pattern>/addToWishlist.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real025</servlet-name>
+    <servlet-class>controllers.ShowWishlistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real025</servlet-name>
+    <url-pattern>/show_wishlist.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real026</servlet-name>
+    <servlet-class>controllers.AddToBidServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real026</servlet-name>
+    <url-pattern>/addToBid.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real027</servlet-name>
+    <servlet-class>controllers.ShowBidsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real027</servlet-name>
+    <url-pattern>/show_bids.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real028</servlet-name>
+    <servlet-class>controllers.GetCountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real028</servlet-name>
+    <url-pattern>/get_counts.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real029</servlet-name>
+    <servlet-class>controllers.GetAllBiddersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real029</servlet-name>
+    <url-pattern>/get_all_bidders.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real030</servlet-name>
+    <servlet-class>controllers.ShowBidderPicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real030</servlet-name>
+    <url-pattern>/show_bidder_pic.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real031</servlet-name>
+    <servlet-class>controllers.AddToChatsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real031</servlet-name>
+    <url-pattern>/add_to_chats.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real032</servlet-name>
+    <servlet-class>controllers.GetChatsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real032</servlet-name>
+    <url-pattern>/get_chats.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real033</servlet-name>
+    <servlet-class>controllers.GetFiltersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real033</servlet-name>
+    <url-pattern>/get_filters.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>real034</servlet-name>
+    <servlet-class>controllers.DeleteBidRecordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real034</servlet-name>
+    <url-pattern>/delete_bid_record.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real035</servlet-name>
+    <servlet-class>controllers.DeleteWishRecordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real035</servlet-name>
+    <url-pattern>/delete_wish_record.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>real036</servlet-name>
+    <servlet-class>controllers.DeletePropertyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>real036</servlet-name>
+    <url-pattern>/delete_property.do</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+    <listener-class>listeners.AppListener</listener-class>
+  </listener>
+
+</web-app>

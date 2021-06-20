@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+
+.modal-header{
+  background: linear-gradient(to bottom, #476cd1 0%, #03024b 100%);
+}
+.modal-body{
+ background-image: url(../images/pexels-digital-buggu-395161.jpg);
+ background-size: cover;
+
+}
+.mytab{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Philosopher', sans-serif; 
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.mytab:hover{
+    color: #d60233;
+    box-shadow:0 4px 8px 0 rgba(245, 107, 107, 0.637), 0 6px 20px 0 rgba(20, 3, 116, 0.356);
+}
+
+
+.close:hover{
+    color: #ffffff;
+}
+.close{
+    color: #dad9f3;
+    
+}
+#signupsubmit,#signinsubmit{
+    /*background-color: #03024b;*/
+    background: linear-gradient(to bottom, #476cd1 0%, #03024b 100%);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cancel{
+    border : 2px solid #03024b;
+    color:  #03024b;
+    font-size: 20px;
+    font-weight: 600px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+.signup-lable{
+    font-size: 17px;
+    font-weight: bold;
+}
+.invalid{
+    color:#d60233;
+    font-weight:500;
+}
+.valid{
+    color: rgb(1, 155, 70);
+    font-weight: 500;
+}

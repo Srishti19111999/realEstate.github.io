@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; 
+}
+  
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 600px; 
+}
+
+.jumbotron{
+    margin: 0px auto;
+    padding: 70px 30px;
+    background-image:url("../images/pexels-frans-van-heerden-1438832.jpg");
+    background-size: cover;
+    height: 510px;
+    color: black;
+}
+
+.navbar-brand img{
+    
+    height: 50px;
+    width:90px;
+
+}
+address {
+    font-size: 18px;
+
+    margin: 0px;
+    color: #04b;
+}
+.navbar{
+    margin-top:-5em;
+    padding: 25px 0px; 
+    background: transparent;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: #04b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+    box-shadow:0 4px 8px 0 rgba(135, 175, 248, 0.637), 0 6px 20px 0 rgba(20, 3, 116, 0.356);
+}
+.act{
+    color:#03024b;
+}
+
+.navbar-text{
+    border:2px solid #04b;
+    border-radius: 8px;
+    padding: 4px 10px;
+    margin-left: 2em;
+    margin-right: -1em;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #04b;
+    text-decoration: none;
+}
+.navbar-text:hover{
+ cursor:pointer;
+ box-shadow:0 4px 8px 0 rgba(135, 175, 248, 0.637), 0 6px 20px 0 rgba(20, 3, 116, 0.356);
+ margin-bottom: 2px;
+ border:2px solid #03024b;
+}
+
+.card-header {
+    height: 200px;
+}
+.crd{
+    height: 380px;
+}
+
+
+#city,  #prpty-type{
+    background:  #03024b;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.crd:hover,#search_btn:hover{
+    box-shadow:0 4px 8px 0 rgba(135, 175, 248, 0.637), 0 6px 20px 0 rgba(20, 3, 116, 0.356);
+    margin-top: -8px;
+    cursor:pointer;
+}
+#searching {
+    margin-top: -4em;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-form-lable{
+    color:#03024b;
+    font-size:18px ;
+    font-family: 'Philosopher', sans-serif;
+}
+#search_btn,#sell_btn{
+  
+    padding : 8px 30px;
+    max-width:100%;
+    background-color: #03024b;
+   
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+ #wrkbtn{
+     padding: 8px 12px;
+     border-radius: 10px;
+     font-size: 15px;
+     color: white;
+     background-color: #04b;
+     text-decoration: none;
+     
+ }
+ #wrkbtn:hover{
+    box-shadow:0 4px 8px 0 rgba(245, 163, 163, 0.568), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#frame2-pic {
+    text-align: center;
+ 
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:20px ;
+ 
+}
+.crd{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Times New Roman', Times, serif;
+}
+.crd-wrk{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.card-works{
+    height:50px;
+    width: 100%;
+    text-align: center;
+    background-color: #03024b;
+    color: #ffffff;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
+
+.crd-wrks-bdy {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+    background-color:#dad9f3;
+}
+
+.footer {
+    background-color: #0f0f0f;
+    margin: 0px auto;
+    padding: 20px 0px;
+    color: #ffffff;
+ }
+ #scrh_res{
+    position: absolute;
+    margin-top: 4.5em;
+    background-color: #03024b;
+    border: 2px solid #fffdfde5;
+    border-radius: 4px;
+    z-index: 999;
+    border-top: none;
+    height:150px;
+    overflow-y: scroll;
+  color: #ffffff;
+  }
+  #scrh_res::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      border-radius: 10px;
+  }
+  
+  #scrh_res::-webkit-scrollbar
+  {
+      width: 10px;
+      background-color: #ffffff;
+  }
+  
+  #scrh_res::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      background-image: -webkit-gradient(linear,
+                                         left bottom,
+                                         left top,
+                                         color-stop(0.44, rgb(122,153,217)),
+                                         color-stop(0.72, rgb(73,125,189)),
+                                         color-stop(0.86, rgb(28,58,148)));
+  }
+  
+    #scrh_res div {
+  
+      cursor: pointer;
+      background-color: #03024b;
+      /* border-bottom: 1px solid #d4d4d4;*/
+  
+    }
+    #scrh_res div:hover {
+      /*when hovering an item:*/
+      background-color: #ffffff;
+      color: #03024b;
+    }
+    #propCity{
+        background-color: #03024b;
+        color: #ffffff;
+    }

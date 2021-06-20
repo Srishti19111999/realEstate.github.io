@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+body{
+    padding: 50px 0px 0px 0px ;
+    z-index: 0;
+    margin:0px;
+    font-family:'Philosopher', sans-serif; 
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;
+}
+.nav-link:hover{
+ color: white;
+ font-size: 20px;
+}
+.card-header{
+    background: linear-gradient(to bottom, #cc0066 20%, #0099ff 115%);
+}
+ul{
+    margin-right: 5em;
+}
+.navbar{
+  background-color: rgba(0, 69, 187, 0.952);
+}
+
+.breadcrumb{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#mysignout{
+    color: #dad9f3;
+}
+.invalid{
+    color:#d60233;
+    font-weight:500;
+}
+.valid{
+    color: rgb(1, 155, 70);
+    font-weight: 500;
+}

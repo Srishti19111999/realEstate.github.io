@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+      body{
+        padding: 50px 0px 0px 0px ;
+        z-index: 0;
+        margin:0px;
+    }
+    .row-header{
+        margin:0px auto;
+        padding:0px auto;
+    }
+    .row-content{
+        margin: 0px auto;
+        padding: 60px 0px 50px 0px;
+        border-bottom: 1px ridge;
+        min-height: 400px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .nav-link:hover{
+        color: white;
+        font-size: 20px;
+    }
+
+    ul{
+        margin-right: 5em;
+    }
+    .navbar{
+      background: linear-gradient(to bottom, #03024b 0%, #476cd1 100%);
+    }
+    .breadcrumb{
+      margin-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        z-index: 9;
+    }
+    .has-search{
+      margin-bottom:-0.2em;
+    }
+    .has-search .form-control {
+      padding-left: 2.6rem;
+      border: 1px solid white;
+      border-radius: 50px;
+      padding-right: 2em;
+    
+    }
+    
+    .has-search .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2em;
+      height: 2em;
+      line-height: 2.375rem;
+      text-align: center;
+      pointer-events: none;
+      color: rgb(112, 110, 134);
+      padding-left: 7px;
+      
+    }
+    .fa-arrow-right{
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 1em;
+      height: 1em;
+      top: 1.62em;
+      left: 27.6em;
+      color: rgb(112, 110, 134);
+    }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #003366 0%, #ffffff 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 99999;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #03024b;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #ffffff;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .navbar-brand{
+    position: absolute;
+    top: 10px;
+  }
+  #search_{
+    background-color:#ffffff;
+    color: #003366;
+    border-radius: 0px;
+  }
+ .sidenav .active{
+      color: #ffffff;
+      background-color: #003366;
+  }
+  @media screen and (max-height: 450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 12px;}
+  }

@@ -1,0 +1,55 @@
+#scrh_res{
+  position: absolute;
+  margin-top: 2.5em;
+  left:-2px;
+  background-color: #fff;
+  border: 1px solid #afacace5;
+  border-radius: 4px;
+  z-index: 999;
+  border-top: none;
+  height:150px;
+  overflow-y: scroll;
+
+}
+.row-header{
+  border-bottom: 1px ridge;
+}
+.card-header{
+  background: linear-gradient(to bottom, #cc0066 20%, #0099ff 115%);
+}
+
+#scrh_res::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#scrh_res::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #ffffff;
+}
+
+#scrh_res::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
+  #scrh_res div {
+
+    cursor: pointer;
+    background-color: #fff;
+    /* border-bottom: 1px solid #d4d4d4;*/
+
+  }
+  #scrh_res div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+  }
