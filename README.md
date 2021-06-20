@@ -5,12 +5,12 @@
 This project is designed to save the data of all those persons who will sell, lease, rent or buy any kind of property like buildings, flats, plots etc. which will reduce manual work and helps the dealer to save the records efficiently. It provides the simplest, cheapest and an less time and energy consuming way of Property Dealing.
 
 ### Tools And Technology 
-Java Servlet API, Java Server Pages Technology, Java Server Pages Standard Tag Library, Java Message Service API, JDBC API. </br>
-HTML ,CSS framework - Bootstrap.</br>
-SQL Server-8.0,Tomcat 9.0.</br>
-Ajax and Java Script.</br>
-TomTom Api.</br>
-Microsoft Visual Studio.</br>
+1. Java Servlet API, Java Server Pages Technology, Java Server Pages Standard Tag Library, Java Message Service API, JDBC API. </br>
+2. HTML ,CSS framework - Bootstrap.</br>
+3. SQL Server-8.0,Tomcat 9.0.</br>
+4. Ajax and Java Script.</br>
+5. TomTom Api.</br>
+6. Microsoft Visual Studio.</br>
 
 ### Resources Needed:
 
@@ -33,35 +33,36 @@ The Model-View-Controller (MVC) is an architectural pattern that separates an ap
 </br>
 
 ### Screenshots
-### Home Page:
+### Home Page: <br/>
 ![Home Page](https://user-images.githubusercontent.com/60151937/122682985-10563580-d21a-11eb-90c8-2b7a90856c2b.png)
 <br/>
 <br/>
-### Sign Up/Login Page:
+### Sign Up/Login Page: <br/>
 ![image](https://user-images.githubusercontent.com/60151937/122683028-61fec000-d21a-11eb-9786-46381e2ee0f0.png)
 
 <br/>
 <br/>
 
-### Email Verification Page:
+### Email Verification Page: <br/>
 ![image](https://user-images.githubusercontent.com/60151937/122683097-c3269380-d21a-11eb-9ac2-17bb635f127f.png)
 <br/><br/>
 
-### User Profile Page: Suggestions for Near By properties:
+### User Profile Page: Suggestions for Near By properties:<br/>
 ![screencapture-localhost-8080-realEstate-profile-do-2020-12-28-13_55_14](https://user-images.githubusercontent.com/60151937/122683086-aee29680-d21a-11eb-8d37-3db03d7bdac5.png)
 
 
 <br/><br/>
-### Properties details:
+### Properties details: <br/>
 ![image](https://user-images.githubusercontent.com/60151937/122683109-dafe1780-d21a-11eb-80cb-363242d863dc.png)
 
 
 <br/><br/>
-### Property posted to sell:
+### Property posted to sell: <br/>
 ![image](https://user-images.githubusercontent.com/60151937/122683129-f537f580-d21a-11eb-8e59-4d0efbf9879f.png)
 
 <br/><br/>
-### Edit Profile Section : Mobile no verification using OTP
+### Edit Profile Section : Mobile no verification using OTP: <br/>
 ![image](https://user-images.githubusercontent.com/60151937/122683150-0da81000-d21b-11eb-8eed-299cca7c0180.png)
 <br/><br/>
-
+### Chatting : facility for bidder and seller: <br/>
+![image](https://user-images.githubusercontent.com/60151937/122683414-8fe50400-d21c-11eb-8541-d84e777f11f3.png)
