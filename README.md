@@ -33,9 +33,35 @@ The Model-View-Controller (MVC) is an architectural pattern that separates an ap
 </br>
 
 ### Screenshots
-#### Home Page:
+### Home Page:
 ![Home Page](https://user-images.githubusercontent.com/60151937/122682985-10563580-d21a-11eb-90c8-2b7a90856c2b.png)
-
-#### Sign Up/Login Page:
+<br/>
+<br/>
+### Sign Up/Login Page:
 ![image](https://user-images.githubusercontent.com/60151937/122683028-61fec000-d21a-11eb-9786-46381e2ee0f0.png)
+
+<br/>
+<br/>
+
+### Email Verification Page:
+![image](https://user-images.githubusercontent.com/60151937/122683097-c3269380-d21a-11eb-9ac2-17bb635f127f.png)
+<br/><br/>
+
+### User Profile Page: Suggestions for Near By properties:
+![screencapture-localhost-8080-realEstate-profile-do-2020-12-28-13_55_14](https://user-images.githubusercontent.com/60151937/122683086-aee29680-d21a-11eb-8d37-3db03d7bdac5.png)
+
+
+<br/><br/>
+### Properties details:
+![image](https://user-images.githubusercontent.com/60151937/122683109-dafe1780-d21a-11eb-80cb-363242d863dc.png)
+
+
+<br/><br/>
+### Property posted to sell:
+![image](https://user-images.githubusercontent.com/60151937/122683129-f537f580-d21a-11eb-8e59-4d0efbf9879f.png)
+
+<br/><br/>
+### Edit Profile Section : Mobile no verification using OTP
+![image](https://user-images.githubusercontent.com/60151937/122683150-0da81000-d21b-11eb-8eed-299cca7c0180.png)
+<br/><br/>
 
