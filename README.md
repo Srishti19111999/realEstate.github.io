@@ -31,7 +31,20 @@ This project is designed to save the data of all those persons who will sell, le
 ##### •	MVC Architecture:</br>
 The Model-View-Controller (MVC) is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components are built to handle specific development aspects of an application. MVC is one of the most frequently used industry-standard web development framework to create scalable and extensible projects.
 </br>
-
+## How to run:
+1. Download the code and put the "realEstate" folder in the directory 
+```
+C:\Tomcat 9.0\webapps\
+```
+2. Make sure you have all the software requirements fulfilled
+3. Run the server using  "Commons Daemon Service runner" OR go to "C:\Tomcat 9.0\bin\" directory and double click Tomcat9.exe
+4. Now simply open your Web Browser and type the URL
+```
+http://localhost:8080/realEstate/
+```
+###### Ps - I am using Tomcat 9.0 and the diectory name and server name are according to it.
+ <br/>
+ 
 ### Screenshots
 ### Home Page: <br/>
 ![Home Page](https://user-images.githubusercontent.com/60151937/122682985-10563580-d21a-11eb-90c8-2b7a90856c2b.png)
@@ -65,4 +78,4 @@ The Model-View-Controller (MVC) is an architectural pattern that separates an ap
 ![image](https://user-images.githubusercontent.com/60151937/122683150-0da81000-d21b-11eb-8eed-299cca7c0180.png)
 <br/><br/>
 ### Chatting : facility for bidder and seller: <br/>
-![image](https://user-images.githubusercontent.com/60151937/122683414-8fe50400-d21c-11eb-8541-d84e777f11f3.png)
+![Bids - Profile 1 - Microsoft​ Edge 11-01-2021 11_30_50](https://user-images.githubusercontent.com/60151937/122683492-244f6680-d21d-11eb-8a1d-9c3636ea5146.png)
