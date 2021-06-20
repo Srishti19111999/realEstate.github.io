@@ -34,7 +34,7 @@ The Model-View-Controller (MVC) is an architectural pattern that separates an ap
 
 ### Screenshots
 ##### Home Page:
-![alt tag](https://github.com/Srishti19111999/realEstate/issues/2#issue-925643707)
+![Home Page](https://user-images.githubusercontent.com/60151937/122682985-10563580-d21a-11eb-90c8-2b7a90856c2b.png)
 
 
 
