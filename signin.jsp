@@ -68,7 +68,7 @@
                         <div class="form-group row">
                             <div class="col-md-8 offset-md-2">
                                 <%String cerror = (String)request.getAttribute("cerror"); %>
-                                <div class="g-recaptcha" data-sitekey="6Le4xdcZAAAAAKfQtwxR_9DbA_rthGbHcP5TorxI"></div>
+                                <div class="g-recaptcha" data-sitekey="api key"></div>
                                 <div class="invalid" style='display:<%= cerror==null?"none":"block" %>'><%= cerror %>
                                 </div>
                             </div>
