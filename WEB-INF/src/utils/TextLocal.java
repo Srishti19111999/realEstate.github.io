@@ -11,7 +11,7 @@ public class TextLocal {
 	public static String sendSms(String mobileNo,String msg) {
 		try {
 			// Construct data
-			String apiKey = "apikey=" + "RIOngO2HXds-ExxoGJDnAgEl2uF36ZrhMDhHKD3UJ5";
+			String apiKey = "apikey=" + "api key";
 			String message = "&message=" + msg;
 			String sender = "&sender=" + "TXTLCL";
 			String numbers = "&numbers=91" + mobileNo;
