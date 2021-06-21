@@ -270,7 +270,7 @@
 
             tt.setProductInfo('PickABrick', '001');
             var map = tt.map({
-                key: "GmgYGsqvP3JJQVKZ5PrcJUCdltJ8qUpw",
+                key: "api key",
                 container: "map",
                 style: "tomtom://vector/1/basic-main",
                 zoom: 10
