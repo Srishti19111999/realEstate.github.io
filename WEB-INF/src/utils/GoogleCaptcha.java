@@ -10,7 +10,7 @@ package utils;
  public class GoogleCaptcha{
      public static boolean checkRecaptcha(String captchaResponse)throws IOException{
         String reCaptchaURL = "https://www.google.com/recaptcha/api/siteverify";
-        String parameter = "secret=6Le4xdcZAAAAAGJdOaHgbdctcqZG4vtNsZ-h6Z2f"+"&response="+captchaResponse;
+        String parameter = "secret=key"+"&response="+captchaResponse;
         URL url = new URL(reCaptchaURL+"?"+parameter);
         HttpURLConnection con = (HttpURLConnection)url.openConnection();
         con.setRequestMethod("POST");
