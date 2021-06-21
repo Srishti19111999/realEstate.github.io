@@ -16,7 +16,6 @@
   <context-param>
     <param-name>DBHost</param-name>
      <param-value>localhost</param-value>
-  <!-- <param-value>aa14w4p8t3jh7pw.ctzbm1rqcgk1.ap-south-1.rds.amazonaws.com</param-value> -->
   </context-param>
   <context-param>
     <param-name>DBPort</param-name>
@@ -25,7 +24,6 @@
   <context-param>
     <param-name>Database</param-name>
    <param-value>propertydb</param-value>
-   <!--  <param-value>ebdb</param-value>-->
   </context-param>
   <context-param>
     <param-name>DBUser</param-name>
@@ -33,18 +31,17 @@
   </context-param>
   <context-param>
     <param-name>DBPassword</param-name>
-    <param-value>1234</param-value>  
-    <!--<param-value>Property123</param-value>-->
+    <param-value>0000</param-value>  
   </context-param>
 
   <context-param>
     <param-name>sender_email</param-name>
-    <param-value>pickabrick.tk@gmail.com</param-value>
+    <param-value>example@gmail.com</param-value>
   </context-param>
 
   <context-param>
     <param-name>sender_email_password</param-name>
-    <param-value>Srishti@1999</param-value>
+    <param-value>password</param-value>
   </context-param>
 
   <servlet>
